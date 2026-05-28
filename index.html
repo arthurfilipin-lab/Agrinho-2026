@@ -1,45 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Minha Página Web</title>
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 600px;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AgroForte - Inovação e sustentabilidade para o futuro do agronegócio.">
+  <title>AgroForte | Futuro Sustentável</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://img.icons8.com/ios-filled/50/00a859/plant.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <!-- Header / Navegação -->
+  <header>
     <div class="container">
-        
-        <h1>Bem-vindo ao Meu Site!</h1>
-        
-        <p>Este é um exemplo prático de como estruturar uma página usando o HTML5.</p>
-        
-        <h2>O que você pode fazer com HTML:</h2>
-        
-        <ul>
-            <li>Criar a estrutura de textos e títulos.</li>
-            <li>Inserir imagens, vídeos e áudios.</li>
-            <li>Adicionar links para navegar entre páginas.</li>
+      <div class="logo">AgroForte</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#pilares">Pilares</a></li>
+          <li><a href="#footer">Contato</a></li>
         </ul>
-
-        <p>Quer aprender mais? Visite o site do <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
     </div>
+  </header>
 
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content container">
+      <h1>AgroForte — Cultivando o Futuro Sustentável</h1>
+      <p>Inovação, tecnologia e responsabilidade ambiental unidos para transformar o agronegócio brasileiro.</p>
+      <a href="#pilares" class="btn">Conheça Nossos Pilares</a>
+    </div>
+  </section>
+
+  <!-- Sobre AgroForte -->
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre AgroForte</h2>
+      <p>AgroForte é uma iniciativa corporativa dedicada a promover soluções agrícolas inovadoras que unem produtividade e sustentabilidade. Nosso compromisso é impulsionar o agronegócio com tecnologia de ponta, preservando os recursos naturais e contribuindo para um futuro mais verde e consciente.</p>
+    </div>
+  </section>
+
+  <!-- Pilares do Futuro Sustentável -->
+  <section id="pilares">
+    <div class="container">
+      <h2>Pilares do Futuro Sustentável</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://source.unsplash.com/400x250/?technology,farm" alt="Tecnologia no Campo">
+          <h3>Tecnologia no Campo</h3>
+          <p>Aplicamos tecnologias inteligentes, como drones, sensores e sistemas de monitoramento, para aumentar a produtividade e otimizar o uso de recursos naturais.</p>
+        </div>
+        <div class="card">
+          <img src="https://source.unsplash.com/400x250/?forest,nature" alt="Preservação Ambiental">
+          <h3>Preservação Ambiental</h3>
+          <p>Nossas práticas visam reduzir o impacto ambiental, promovendo a preservação de solos, água e biodiversidade em todas as etapas da produção agrícola.</p>
+        </div>
+        <div class="card">
+          <img src="https://source.unsplash.com/400x250/?recycle,agriculture" alt="Economia Circular">
+          <h3>Economia Circular</h3>
+          <p>Implementamos modelos de produção sustentável que incentivam o reaproveitamento de resíduos, eficiência energética e a redução de desperdícios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container footer-content">
+      <p>© 2026 AgroForte — Todos os direitos reservados</p>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
